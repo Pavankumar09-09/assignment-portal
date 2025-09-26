@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #f4f4f9;
+  color: #333;
+}
+
+header {
+  background: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  color: #0077b6;
+}
+
+a {
+  color: #0077b6;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: white;
+}
+/* Dark Mode Styles */
+.dark-mode {
+  background: #1e1e1e;
+  color: #f1f1f1;
+}
+
+.dark-mode header {
+  background: #222;
+}
+
+.dark-mode a {
+  color: #90caf9;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #0077b6;
+  color: white;
+  font-size: 1rem;
+}
+
+button:hover {
+  background: #023e8a;
+}
